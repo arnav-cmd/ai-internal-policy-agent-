@@ -1,0 +1,18 @@
+--Set Project & Region (Cloud Shell)
+gcloud config set project vertex-ai-agent-demo
+gcloud config set ai/region us-central1
+-- Create Python Environment (Cloud Shell)
+python3 -m venv venv
+source venv/bin/activate
+
+-- Install Required Libraries
+pip install --upgrade pip
+pip install google-cloud-aiplatform langchain faiss-cpu
+
+(Vertex AI SDK LangChain FAISS (vector DB))-- Installing 
+
+-- Create Project Files
+mkdir rag_agent
+cd rag_agent
+touch main.py
+mkdir docs
