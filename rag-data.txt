@@ -1,1 +1,8 @@
+A data governance policy is a documented set of guidelines that ensure consistent management of an organization’s information assets across teams and systems. Effective data governance policies act as operational frameworks that embed compliance directly into daily workflows, shifting from reactive documentation to proactive automated policy enforcement, at the point of data creation and use.
+Key characteristics of effective data governance policies:
 
+Clear scope and objectives: Measurable goals like improving ML data quality, meeting GDPR requirements, or reducing security risk
+Defined accountability: Decision rights aligned to each stage of the data lifecycle
+Standardized definitions: A unified glossary with clear quality thresholds
+Actionable workflows: Step-by-step processes with set timelines for access, quality issues, and changes
+Automated enforcement: Real-time policy checks built into existing systems
